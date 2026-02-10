@@ -29,22 +29,18 @@ interface Component {
 const MILESTONES = ["FA - FASS - JAN 2026", "FA - FASS - FEB 2026", "FA - FASS - MAR 2026"];
 
 const MOCK_COMPONENTS: Record<string, Component[]> = {
-  "v3.12.0": [
+  "FA - FASS - JAN 2026": [
     { name: "auth-service", version: "2.4.1", repoUrl: "https://gitlab.com/org/auth-service", lastPipeline: { id: "#84521", status: "success", date: "2026-02-08" }, lastMR: { title: "Fix token refresh logic", url: "https://gitlab.com/org/auth-service/-/merge_requests/142", author: "jdoe" } },
     { name: "api-gateway", version: "1.8.0", repoUrl: "https://gitlab.com/org/api-gateway", lastPipeline: { id: "#84519", status: "success", date: "2026-02-07" }, lastMR: { title: "Add rate limiting headers", url: "https://gitlab.com/org/api-gateway/-/merge_requests/97", author: "asmith" } },
     { name: "notification-worker", version: "3.1.2", repoUrl: "https://gitlab.com/org/notification-worker", lastPipeline: { id: "#84515", status: "failed", date: "2026-02-07" }, lastMR: { title: "Migrate to new email provider", url: "https://gitlab.com/org/notification-worker/-/merge_requests/63", author: "mchen" } },
     { name: "dashboard-ui", version: "5.0.0", repoUrl: "https://gitlab.com/org/dashboard-ui", lastPipeline: { id: "#84510", status: "success", date: "2026-02-06" }, lastMR: { title: "Redesign settings page", url: "https://gitlab.com/org/dashboard-ui/-/merge_requests/210", author: "jdoe" } },
   ],
-  "v3.11.0": [
+  "FA - FASS - FEB 2026": [
     { name: "auth-service", version: "2.3.0", repoUrl: "https://gitlab.com/org/auth-service", lastPipeline: { id: "#83200", status: "success", date: "2026-01-20" }, lastMR: { title: "Add OAuth2 support", url: "https://gitlab.com/org/auth-service/-/merge_requests/138", author: "asmith" } },
     { name: "billing-service", version: "1.2.5", repoUrl: "https://gitlab.com/org/billing-service", lastPipeline: { id: "#83198", status: "success", date: "2026-01-19" }, lastMR: { title: "Fix invoice generation", url: "https://gitlab.com/org/billing-service/-/merge_requests/44", author: "mchen" } },
   ],
-  "v3.10.0": [
+  "FA - FASS - MAR 2026": [
     { name: "dashboard-ui", version: "4.9.0", repoUrl: "https://gitlab.com/org/dashboard-ui", lastPipeline: { id: "#82100", status: "success", date: "2026-01-05" }, lastMR: { title: "Add dark mode toggle", url: "https://gitlab.com/org/dashboard-ui/-/merge_requests/195", author: "jdoe" } },
-  ],
-  "v3.9.0": [
-    { name: "api-gateway", version: "1.7.0", repoUrl: "https://gitlab.com/org/api-gateway", lastPipeline: { id: "#81000", status: "success", date: "2025-12-18" }, lastMR: { title: "Upgrade dependencies", url: "https://gitlab.com/org/api-gateway/-/merge_requests/88", author: "asmith" } },
-    { name: "notification-worker", version: "3.0.0", repoUrl: "https://gitlab.com/org/notification-worker", lastPipeline: { id: "#80998", status: "running", date: "2025-12-17" }, lastMR: { title: "Add SMS channel", url: "https://gitlab.com/org/notification-worker/-/merge_requests/55", author: "mchen" } },
   ],
 };
 
