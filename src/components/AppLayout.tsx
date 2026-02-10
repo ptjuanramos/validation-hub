@@ -13,7 +13,7 @@ const AppLayout = ({ children }: { children: React.ReactNode }) => {
     <div className="min-h-screen flex flex-col">
       <header className="border-b border-border bg-card">
         <div className="max-w-5xl mx-auto px-6 flex items-center h-14 gap-8">
-          <span className="text-primary font-bold text-lg tracking-tight">GitLab Tools</span>
+          <span className="text-primary font-bold text-lg tracking-tight">FASS Tools</span>
           <nav className="flex gap-1">
             {navItems.map((item) => {
               const isActive = location.pathname === item.path;
