@@ -26,7 +26,7 @@ interface Component {
   lastMR: { title: string; url: string; author: string };
 }
 
-const MILESTONES = ["v3.12.0", "v3.11.0", "v3.10.0", "v3.9.0"];
+const MILESTONES = ["FA - FASS - JAN 2026", "FA - FASS - FEB 2026", "FA - FASS - MAR 2026"];
 
 const MOCK_COMPONENTS: Record<string, Component[]> = {
   "v3.12.0": [
